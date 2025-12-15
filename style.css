@@ -17,7 +17,6 @@ h1 {
     /* border-image-width: 20%; */
     /* margin-inline: 20%; */
     /* padding-inline: 20vw; */
-
 }
 /*Flexbox code for mini reviews */
 #parent {
@@ -183,6 +182,9 @@ body {
     background-color: #61122f;
     scroll-behavior: smooth;
     
+}
+@media only screen and (max-width: 10000px){
+  h1 {background-color: turquoise;}
 }
 /*Szie adjustment so everything looks acceptable on screen, a lot of tampering eher */
 @media only screen and (max-width: 2000px){
